@@ -31,7 +31,7 @@ class Feed extends React.Component<any, any> {
 				</View>
 				<View className="feed-content">
 					<View
-						className="question"
+						className="question1"
 						onClick={() => {
 							this.navigateTo('/pages/question/question');
 						}}
