@@ -7,11 +7,10 @@ import img1 from '../../asset/images/eye.png';
 import img2 from '../../asset/images/comment2.png';
 import img3 from '../../asset/images/invite.png';
 import img4 from '../../asset/images/write.png';
-import img5 from '../../asset/images/icon1.jpeg';
 
-export default class Question extends React.Component {
-	constructor() {
-		super(...arguments);
+export default class Question extends React.Component<any, any> {
+	constructor(props: any) {
+		super(props);
 	}
 	navigateTo(url) {
 		Taro.navigateTo({ url: url });

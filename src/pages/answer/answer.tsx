@@ -10,9 +10,9 @@ import img5 from '../../asset/images/star2.png';
 import img6 from '../../asset/images/comment.png';
 import img7 from '../../asset/images/icon1.jpeg';
 
-export default class Answer extends React.Component {
-	constructor() {
-		super(...arguments);
+export default class Answer extends React.Component<any, any> {
+	constructor(props: any) {
+		super(props);
 	}
 
 	navigateTo(url) {
