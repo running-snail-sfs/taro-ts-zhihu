@@ -1,19 +1,18 @@
-import React from 'react'
-import './app.scss'
+import React from 'react';
+import './app.scss';
 
 class App extends React.Component {
-  componentDidMount () {}
+	componentDidMount() {}
 
-  componentDidShow () {}
+	componentDidShow() {}
 
-  componentDidHide () {}
+	componentDidHide() {}
 
-  componentCatchError () {}
+	componentCatchError() {}
 
-  render () {
-    return this.props.children
-  }
+	render() {
+		return this.props.children;
+	}
 }
 
-export default App
-
+export default App;
